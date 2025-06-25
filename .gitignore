@@ -1,0 +1,14 @@
+auth.py
+perso-checkpoint.ipynb
+ML.ipynb
+ML-Copy2.ipynb
+ML-classification.ipynb
+loc_villes.ipynb
+villes.ipynb
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+.pytest_cache
+app_cloud.tar.gz
+venv
