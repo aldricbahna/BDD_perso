@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime,timedelta
-import seaborn as sns
 import numpy as np
 
 @st.cache_data
@@ -63,7 +62,7 @@ def load_data():
 
     df['Lieu principal']=df['Lieu'].str.split('/').str[0]
     order_box=['oui','non']
-    palette=sns.color_palette("Set2")
+    #palette=sns.color_palette("Set2")
 
     def categorie_note(note):
         if note >= 7:
